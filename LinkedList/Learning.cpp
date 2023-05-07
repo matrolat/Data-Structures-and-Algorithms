@@ -29,7 +29,7 @@ int main()
 	third->val = 6;
 	third->next = NULL;
 	//deleting one element
-	int target = 0;
+	int target = 5;
 	
 	
 	// head->next = head->next->next;
