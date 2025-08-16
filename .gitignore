@@ -1,2 +1,12 @@
 
 desktop.ini
+# Ignore all executable files everywhere
+**/*.exe
+
+# (optional) Ignore object and debug files
+**/*.o
+**/*.obj
+**/*.out
+**/*.log
+
+.vscode/
