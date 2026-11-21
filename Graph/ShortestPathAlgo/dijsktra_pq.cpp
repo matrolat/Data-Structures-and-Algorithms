@@ -24,6 +24,9 @@ class Solution {
             int cost = pq.top().first;
             int u = pq.top().second;
             pq.pop();
+          
+            // imp for larger inputs
+            if(cost > dist[u]) continue;
             
             for(auto &[v, vCost]: graph[u] )
             {
